@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+ background-color: cornsilk;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/*.carousel-inner img {
+  width: 100%;
+  height: 5%;
+  size: 5%;
+}*/
+.navbar-text
+{
+  font-size: 50px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: 900;
+}
+
+.tggle{
+  margin-left: 80%;
+  font-weight: 500;
+}
+.tiggle{
+ margin-left: 60%;
+ font-size: 25px;
+ font-weight: 500;
+}
+.spad {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.add-wrap .add-text{
+  background: #ff2a6b;
+  padding: 50px 0 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  
+}
+h1{
+  font-size: 55px;
+}
+ .underline {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.align-center
+{
+  text-align: center;
+}
+
+ .underline .line {
+  width: 50rem;
+  height: 3px;
+  background: linear-gradient(90deg, #a38dfd, #52fe52);
+  display: inline-block;
+}
+  
+
+footer{
+  color: white;
+}
+footer a{
+  color: #bfffff;
+}
+footer a:hover{
+  color: white;
+}
+
+.footer-bottom{
+  background: #3d6277;
+  padding: 2em;
+}
+.footer-top{
+  background: #2d4958;  
+}
+.footer-middle{
+   background: #3d6277;
+  padding-top: 2em;
+  color: white;
+}
+/**Sub Navigation**/
+.subnavigation-container{
+  background: #3d6277;
+}
+.subnavigation .nav-link{
+  color: white;
+  font-weight: bold;
+}
+.subnavigation-container{
+  text-align: center;
+}
+.subnavigation-container .navbar{
+  display: inline-block;
+  margin-bottom: -6px; /* Inline-block margin offffset HACK -Gilron */
+}
+.col-subnav a{
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: bold;
+}
+.col-subnav .active{
+  border-top:5px solid orange;
+ background: white;
+  color: black;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
